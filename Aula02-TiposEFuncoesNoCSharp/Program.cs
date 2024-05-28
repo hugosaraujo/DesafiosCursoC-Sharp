@@ -5,22 +5,22 @@
     4- Criar um programa que, dado a entrada de dados de um número n inteiro, a partir do teclado, exibir a n-ésima posição de uma lista.
 */
 
-// Console.Write("Insira a nota que deseja avaliar: ");
-// int nota = int.Parse(Console.ReadLine()!);
-// AvaliaNota(nota);
-//
-// void AvaliaNota(int nota)
-// {
-//     if (nota >= 5)
-//     {
-//         Console.WriteLine("Parabéns!!!");
-//         Console.WriteLine("Nota suficiente para aprovação");
-//     }
-//     else
-//     {
-//         Console.WriteLine("Infelizmente sua nota é insuficiente para a aprovação");
-//     }
-// }
+Console.Write("Insira a nota que deseja avaliar: ");
+int nota = int.Parse(Console.ReadLine()!);
+AvaliaNota(nota);
+
+void AvaliaNota(int nota)
+{
+    if (nota >= 5)
+    {
+        Console.WriteLine("Parabéns!!!");
+        Console.WriteLine("Nota suficiente para aprovação");
+    }
+    else
+    {
+        Console.WriteLine("Infelizmente sua nota é insuficiente para a aprovação");
+    }
+}
 
 
 List<string> listaLinguagens = new List<string>
