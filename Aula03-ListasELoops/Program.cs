@@ -54,11 +54,23 @@ bandasFavoritas.Add("Barões da Pisadinha");
 bandasFavoritas.Add("Alvvays");
 bandasFavoritas.Add("Nadson, o ferinha");
 
-foreach (string bandas in bandasFavoritas)
+// foreach (string bandas in bandasFavoritas)
+// {
+//     Console.WriteLine(bandas);
+// }
+
+
+List<int> numeros = new List<int>();
+numeros.Add(10);
+numeros.Add(5);
+numeros.Add(2);
+numeros.Add(4);
+
+int soma = 0;
+
+foreach (int numero  in  numeros)
 {
-    Console.WriteLine(bandas);
+    soma += numero;
 }
 
-
-
-
+Console.WriteLine($"A soma de todos os números da coleção é {soma}");

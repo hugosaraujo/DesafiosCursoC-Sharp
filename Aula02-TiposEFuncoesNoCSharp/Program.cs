@@ -30,7 +30,7 @@ List<string> listaLinguagens = new List<string>
     "JavaScript"
 };
 
-Console.Write("Escreve a posição da linguagem de programação que deseja ver: ");
-int posicao = int.Parse(Console.ReadLine()!);
-
-Console.WriteLine(listaLinguagens[posicao]);
+// Console.Write("Escreve a posição da linguagem de programação que deseja ver: ");
+// int posicao = int.Parse(Console.ReadLine()!);
+//
+// Console.WriteLine(listaLinguagens[posicao]);
