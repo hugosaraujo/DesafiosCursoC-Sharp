@@ -44,7 +44,6 @@ void Calcula(double a, double b)
         default:
             Console.WriteLine("Não é uma opção válida. ");
             break;
-            
     }
 }
 
@@ -54,11 +53,7 @@ bandasFavoritas.Add("Barões da Pisadinha");
 bandasFavoritas.Add("Alvvays");
 bandasFavoritas.Add("Nadson, o ferinha");
 
-// foreach (string bandas in bandasFavoritas)
-// {
-//     Console.WriteLine(bandas);
-// }
-
+bandasFavoritas.ForEach(banda => Console.WriteLine(banda));
 
 List<int> numeros = new List<int>();
 numeros.Add(10);
@@ -66,11 +61,6 @@ numeros.Add(5);
 numeros.Add(2);
 numeros.Add(4);
 
-int soma = 0;
-
-foreach (int numero  in  numeros)
-{
-    soma += numero;
-}
+int soma = numeros.Sum();
 
 Console.WriteLine($"A soma de todos os números da coleção é {soma}");
